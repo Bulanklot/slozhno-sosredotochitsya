@@ -39,7 +39,7 @@
     display: block;
   }
 
-  .page{
+  .page {
     background-image: var(--bg-image);
     background-color: var(--bg-color);
   }

@@ -260,8 +260,9 @@
 }
 
 .gallery__images {
-  display: grid;
+  display: flex;
   gap: 10px;
+  flex-direction: column;
 }
 
 .footer {
@@ -484,7 +485,7 @@
   .content {
     gap: 80px;
   }
-  
+
   .content__section__questions {
     display: grid;
     gap: 20px;
