@@ -78,8 +78,16 @@
   --title-color: #FFC2E6;
   --shadow-color: #FF8DCB;
   --intro-text-color: #000028;
-  --bg-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --link-border-color:#353430;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+  .decorating {
+    display: block;
+  }
+
+  .page {
+    background-image: var(--bg-image);
+    background-color: var(--bg-color);
   }
 }

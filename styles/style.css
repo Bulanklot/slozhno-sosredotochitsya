@@ -198,15 +198,14 @@
   font-size: inherit;
 }
 .content__section {
-  display:grid; 
-  gap:20px;
+  display: grid;
+  gap: 20px;
 }
 
 .content__section__questions {
-  display:grid; 
-  gap:20px; 
-} 
-
+  display: grid;
+  gap: 20px;
+}
 
 .content__block {
   display: grid;
