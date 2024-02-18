@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .decorated-zone::before {
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
@@ -61,7 +60,6 @@
   position: relative;
   box-sizing: border-box;
   padding: 10px;
-  inline-size: 100vw;
   min-inline-size: 375px;
   grid-template-columns: repeat(auto-fill, 100%);
 }
@@ -263,7 +261,6 @@
 .footer {
   min-block-size: 668px;
   block-size: 100vh;
-  inline-size: 100vw;
   min-inline-size: 375px;
   box-sizing: border-box;
   padding:10px;
