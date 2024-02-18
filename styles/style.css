@@ -152,9 +152,10 @@
   line-height: var(--text-height);
   color: var(--main-text-color);
   margin: 0 auto;
-  
-/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: var(--bg-color);
 }
+
+/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
 .content__title {
   color: var(--accent-color);
